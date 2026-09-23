@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["facebook", "messenger", "bot", "ai", "math"],
-  "author": "GeoDevz69",
+  "author": "BonumMaster",
   "license": "ISC",
   "dependencies": {
     "mathjs": "^12.4.0",
