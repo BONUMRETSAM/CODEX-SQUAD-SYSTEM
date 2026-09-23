@@ -98,12 +98,12 @@ module.exports = {
 
       // STEP 6: REGULAR AI
       if (!prompt && !isReply) {
-        await sendMessage(senderId, { text: 'Hello. I am Teacher Arlene.\n\nJust type: ai [your question]' }, token);
+        await sendMessage(senderId, { text: '🤖 Hello! Ako ang iyong AI Assistant BonumMaster.\n\nJust type: ai [your question]' }, token);
         return;
       }
 
       if (this.isOwnerQuestion(prompt)) {
-        await sendMessage(senderId, { text: 'I was created by GeoDevz69. https://www.facebook.com/geotechph.net' }, token);
+        await sendMessage(senderId, { text: 'I was created by BonumMaster. https://www.facebook.com/bonum.master' }, token);
         return;
       }
 
