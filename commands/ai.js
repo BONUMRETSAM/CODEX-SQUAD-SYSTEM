@@ -98,7 +98,7 @@ module.exports = {
 
       // STEP 6: REGULAR AI
       if (!prompt && !isReply) {
-        await sendMessage(senderId, { text: '🤖 Hello! Ako ang iyong AI Assistant BonumMaster.\n\nJust type: ai [your question]' }, token);
+        await sendMessage(senderId, { text: '🤖 Hello! Ako ang iyong AI Assistant BonumMaster'.\n\nJust type: ai [your question]' }, token);
         return;
       }
 
@@ -627,7 +627,7 @@ module.exports = {
   buildConversationalReply(prompt) {
     const p = prompt.trim().toLowerCase().replace(/[.:!?,\s]+$/g, '').trim();
     if (/^(hai|hi|hey|hello|helo|hallo|yo|sup|hola)$/i.test(p)) {
-      return 'Hello! BonumMaster Your Private assistant .\n\nPaano kita matutulungan ngayon?\n\nI-type lang ang iyong tanong o i-paste ang activity sheet.';
+      return 'Hello! BonumMaster Your Private assistant' .\n\'n Paano kita matutulungan ngayon?\n\nI-type lang ang iyong tanong o i-paste ang activity sheet.';
     }
     if (/^(kumusta|kamusta|musta)/i.test(p)) return 'Kumusta! Ano ang itatanong mo?';
     if (/^(help|tulong|tabang)$/i.test(p)) {
