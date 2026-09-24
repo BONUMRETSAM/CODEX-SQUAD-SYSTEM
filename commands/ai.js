@@ -642,7 +642,7 @@ module.exports = {
     if (/^(good|nice|great|galing|magaling)$/i.test(p)) return 'Salamat!';
     if (/^(sino|who)\s*(ka|ka po|kayo)$/i.test(p)) return 'BonumMaster AI assistant.';
     if (/^(ano|what)\s*(pangalan mo|name mo)$/i.test(p)) return 'Ang pangalan ko ay BonumMaster.';
-    return 'Hello! Ako si Teacher Arlene.\n\nPaano kita matutulungan?';
+    return 'Hello! Its Me BonumMaster.\n\nYour Ai Private Assistance';
   },
 
   // ============================================================
