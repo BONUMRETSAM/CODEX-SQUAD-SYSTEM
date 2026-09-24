@@ -627,7 +627,7 @@ module.exports = {
   buildConversationalReply(prompt) {
     const p = prompt.trim().toLowerCase().replace(/[.:!?,\s]+$/g, '').trim();
     if (/^(hai|hi|hey|hello|helo|hallo|yo|sup|hola)$/i.test(p)) {
-      return 'Hello! Ako si Teacher Arlene, ang iyong AI assistant.\n\nPaano kita matutulungan ngayon?\n\nI-type lang ang iyong tanong o i-paste ang activity sheet.';
+      return 'Hello! BonumMaster Your Private assistant .\n\nPaano kita matutulungan ngayon?\n\nI-type lang ang iyong tanong o i-paste ang activity sheet.';
     }
     if (/^(kumusta|kamusta|musta)/i.test(p)) return 'Kumusta! Ano ang itatanong mo?';
     if (/^(help|tulong|tabang)$/i.test(p)) {
@@ -640,8 +640,8 @@ module.exports = {
     if (/^(yes|oo|opo)/i.test(p)) return 'Sige! Ano ang gusto mong itanong?';
     if (/^(no|hindi)/i.test(p)) return 'Okay, narito lang ako kung kailangan mo.';
     if (/^(good|nice|great|galing|magaling)$/i.test(p)) return 'Salamat!';
-    if (/^(sino|who)\s*(ka|ka po|kayo)$/i.test(p)) return 'Ako si Teacher Arlene, AI assistant na ginawa ni GeoDevz69.';
-    if (/^(ano|what)\s*(pangalan mo|name mo)$/i.test(p)) return 'Ang pangalan ko ay Teacher Arlene.';
+    if (/^(sino|who)\s*(ka|ka po|kayo)$/i.test(p)) return 'BonumMaster AI assistant.';
+    if (/^(ano|what)\s*(pangalan mo|name mo)$/i.test(p)) return 'Ang pangalan ko ay BonumMaster.';
     return 'Hello! Ako si Teacher Arlene.\n\nPaano kita matutulungan?';
   },
 
